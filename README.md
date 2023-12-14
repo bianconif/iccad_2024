@@ -12,8 +12,8 @@
 
 ### Feature extraction
 - [LIFEx](https://www.lifexsoft.org/) scripts for feature extraction (for LIFEx 7.4.0)
- - [Absolute resampling](lifex_scripts/Script_ImSURE_Absolute.tex)
- - [Relative resampling](lifex_scripts/Script_ImSURE_Relatice.tex)
+    - [Absolute resampling](lifex_scripts/Script_ImSURE_Absolute.tex)
+    - [Relative resampling](lifex_scripts/Script_ImSURE_Relatice.tex)
 
 To execute the scripts set the `*IMAGE` path to the folder containing the DICOM files and the `*RoiVolume` path to the folder containing the ROIs.  
 
