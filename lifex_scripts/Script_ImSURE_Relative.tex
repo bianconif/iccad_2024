@@ -1,0 +1,295 @@
+LIFEx.script = Main
+LIFEx.script.version = 7.4.0
+LIFEx.output.file=G:/Data/Texture_ImSURE.csv
+
+#Spatial resampling
+LIFEx.texture.ZSpatialResampling=1
+LIFEx.texture.YSpatialResampling=1
+LIFEx.texture.XSpatialResampling=1
+
+#Texture: Relative resampling
+#texture: RelativeMeanSd (LIFEx>=5.1.0) [ true || false ]
+LIFEx.texture.ButtonRelativeMeanSd=false 
+
+#texture: RelativeMinMax (LIFEx>=5.1.0) [ true || false ]
+LIFEx.texture.ButtonRelativeMinMax=true
+
+#Number of discretization levels
+LIFEx.texture.BinSize=0
+LIFEx.texture.NbGrey=256
+
+LIFEx.texture.SessionCsv=G:/Data/Texture_ImSure_Relative.csv
+
+
+#Starting texture analysis
+
+LIFEx.texture.Session0.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session0.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_01.uint16.nii.gz
+
+LIFEx.texture.Session1.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session1.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_02.uint16.nii.gz
+
+LIFEx.texture.Session2.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session2.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_03.uint16.nii.gz
+
+LIFEx.texture.Session3.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session3.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_04.uint16.nii.gz
+
+LIFEx.texture.Session4.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session4.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_05.uint16.nii.gz
+
+LIFEx.texture.Session5.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session5.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_06.uint16.nii.gz
+
+LIFEx.texture.Session6.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session6.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_07.uint16.nii.gz
+
+LIFEx.texture.Session7.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session7.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_08.uint16.nii.gz
+
+LIFEx.texture.Session8.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session8.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_09.uint16.nii.gz
+
+LIFEx.texture.Session9.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session9.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_L_10.uint16.nii.gz
+
+LIFEx.texture.Session10.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session10.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_01.uint16.nii.gz
+
+LIFEx.texture.Session11.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session11.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_02.uint16.nii.gz
+
+LIFEx.texture.Session12.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session12.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_03.uint16.nii.gz
+
+LIFEx.texture.Session13.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session13.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_04.uint16.nii.gz
+
+LIFEx.texture.Session14.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session14.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_05.uint16.nii.gz
+
+LIFEx.texture.Session15.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session15.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_06.uint16.nii.gz
+
+LIFEx.texture.Session16.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session16.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_07.uint16.nii.gz
+
+LIFEx.texture.Session17.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session17.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_08.uint16.nii.gz
+
+LIFEx.texture.Session18.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session18.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_09.uint16.nii.gz
+
+LIFEx.texture.Session19.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session19.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_M_10.uint16.nii.gz
+
+LIFEx.texture.Session20.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session20.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_01.uint16.nii.gz
+
+LIFEx.texture.Session21.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session21.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_02.uint16.nii.gz
+
+LIFEx.texture.Session22.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session22.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_03.uint16.nii.gz
+
+LIFEx.texture.Session23.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session23.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_04.uint16.nii.gz
+
+LIFEx.texture.Session24.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session24.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_05.uint16.nii.gz
+
+LIFEx.texture.Session25.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session25.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_06.uint16.nii.gz
+
+LIFEx.texture.Session26.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session26.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_07.uint16.nii.gz
+
+LIFEx.texture.Session27.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session27.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_08.uint16.nii.gz
+
+LIFEx.texture.Session28.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session28.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_09.uint16.nii.gz
+
+LIFEx.texture.Session29.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session29.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_B_S_10.uint16.nii.gz
+
+LIFEx.texture.Session30.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session30.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_01.uint16.nii.gz
+
+LIFEx.texture.Session31.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session31.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_02.uint16.nii.gz
+
+LIFEx.texture.Session32.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session32.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_03.uint16.nii.gz
+
+LIFEx.texture.Session33.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session33.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_04.uint16.nii.gz
+
+LIFEx.texture.Session34.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session34.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_05.uint16.nii.gz
+
+LIFEx.texture.Session35.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session35.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_06.uint16.nii.gz
+
+LIFEx.texture.Session36.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session36.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_07.uint16.nii.gz
+
+LIFEx.texture.Session37.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session37.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_08.uint16.nii.gz
+
+LIFEx.texture.Session38.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session38.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_09.uint16.nii.gz
+
+LIFEx.texture.Session39.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session39.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_L_10.uint16.nii.gz
+
+LIFEx.texture.Session40.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session40.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_01.uint16.nii.gz
+
+LIFEx.texture.Session41.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session41.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_02.uint16.nii.gz
+
+LIFEx.texture.Session42.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session42.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_03.uint16.nii.gz
+
+LIFEx.texture.Session43.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session43.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_04.uint16.nii.gz
+
+LIFEx.texture.Session44.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session44.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_05.uint16.nii.gz
+
+LIFEx.texture.Session45.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session45.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_06.uint16.nii.gz
+
+LIFEx.texture.Session46.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session46.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_07.uint16.nii.gz
+
+LIFEx.texture.Session47.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session47.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_08.uint16.nii.gz
+
+LIFEx.texture.Session48.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session48.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_09.uint16.nii.gz
+
+LIFEx.texture.Session49.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session49.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_M_10.uint16.nii.gz
+
+LIFEx.texture.Session50.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session50.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_01.uint16.nii.gz
+
+LIFEx.texture.Session51.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session51.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_02.uint16.nii.gz
+
+LIFEx.texture.Session52.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session52.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_03.uint16.nii.gz
+
+LIFEx.texture.Session53.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session53.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_04.uint16.nii.gz
+
+LIFEx.texture.Session54.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session54.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_05.uint16.nii.gz
+
+LIFEx.texture.Session55.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session55.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_06.uint16.nii.gz
+
+LIFEx.texture.Session56.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session56.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_07.uint16.nii.gz
+
+LIFEx.texture.Session57.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session57.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_08.uint16.nii.gz
+
+LIFEx.texture.Session58.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session58.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_09.uint16.nii.gz
+
+LIFEx.texture.Session59.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session59.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_C_S_10.uint16.nii.gz
+
+LIFEx.texture.Session60.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session60.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_01.uint16.nii.gz
+
+LIFEx.texture.Session61.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session61.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_02.uint16.nii.gz
+
+LIFEx.texture.Session62.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session62.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_03.uint16.nii.gz
+
+LIFEx.texture.Session63.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session63.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_04.uint16.nii.gz
+
+LIFEx.texture.Session64.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session64.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_05.uint16.nii.gz
+
+LIFEx.texture.Session65.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session65.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_06.uint16.nii.gz
+
+LIFEx.texture.Session66.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session66.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_07.uint16.nii.gz
+
+LIFEx.texture.Session67.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session67.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_08.uint16.nii.gz
+
+LIFEx.texture.Session68.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session68.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_09.uint16.nii.gz
+
+LIFEx.texture.Session69.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session69.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_L_10.uint16.nii.gz
+
+LIFEx.texture.Session70.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session70.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_01.uint16.nii.gz
+
+LIFEx.texture.Session71.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session71.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_02.uint16.nii.gz
+
+LIFEx.texture.Session72.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session72.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_03.uint16.nii.gz
+
+LIFEx.texture.Session73.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session73.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_04.uint16.nii.gz
+
+LIFEx.texture.Session74.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session74.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_05.uint16.nii.gz
+
+LIFEx.texture.Session75.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session75.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_06.uint16.nii.gz
+
+LIFEx.texture.Session76.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session76.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_07.uint16.nii.gz
+
+LIFEx.texture.Session77.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session77.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_08.uint16.nii.gz
+
+LIFEx.texture.Session78.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session78.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_09.uint16.nii.gz
+
+LIFEx.texture.Session79.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session79.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_M_10.uint16.nii.gz
+
+LIFEx.texture.Session80.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session80.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_01.uint16.nii.gz
+
+LIFEx.texture.Session81.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session81.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_02.uint16.nii.gz
+
+LIFEx.texture.Session82.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session82.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_03.uint16.nii.gz
+
+LIFEx.texture.Session83.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session83.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_04.uint16.nii.gz
+
+LIFEx.texture.Session84.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session84.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_05.uint16.nii.gz
+
+LIFEx.texture.Session85.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session85.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_06.uint16.nii.gz
+
+LIFEx.texture.Session86.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session86.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_07.uint16.nii.gz
+
+LIFEx.texture.Session87.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session87.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_08.uint16.nii.gz
+
+LIFEx.texture.Session88.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session88.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_09.uint16.nii.gz
+
+LIFEx.texture.Session89.Img0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/IMAGE
+LIFEx.texture.Session89.Roi0=G:/Imsure Phantoms/ImSURE_Isotropic_Phantom/Isotropic Phantom/DICOM/RoiVolume/ROI_S_S_10.uint16.nii.gz
+
