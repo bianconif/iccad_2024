@@ -7,7 +7,7 @@
 ## Supplementary material
 
 ### Data source
-- [ImSURE isotropic phantom](https://figshare.com/articles/dataset/ImSURE_Isotropic_Phantom/16669228?backTo=/collections/ImSURE_Phantoms/5625439)
+- [ImSURE Isotropic Phantom](https://figshare.com/articles/dataset/ImSURE_Isotropic_Phantom/16669228?backTo=/collections/ImSURE_Phantoms/5625439)
 - [ROIs (in .nii format)](data/ROIs.zip)
 
 ### Feature extraction
@@ -15,7 +15,7 @@
     - [Absolute resampling](lifex_scripts/Script_ImSURE_Absolute.tex)
     - [Relative resampling](lifex_scripts/Script_ImSURE_Relative.tex)
 
-To execute the scripts set the `*IMAGE` path to the folder containing the DICOM files and the `*RoiVolume` path to the folder containing the ROIs.  
+To execute the above scripts with [LIFEx](https://www.lifexsoft.org/) set the `*IMAGE` path to the folder containing the DICOM files downloaded from Isotropic Phantom/DICOM/IMAGE and the `*RoiVolume` path to the folder containing the ROIs.  
 
 ### Results
 - LIFEx output files (settings + computed features)
@@ -25,7 +25,7 @@ To execute the scripts set the `*IMAGE` path to the folder containing the DICOM 
     - [Absolute resampling](data/corr_table_absolute.csv)
     - [Relative resampling](data/corr_table_relative.csv)
     - Key to fields:
-        - `Feature` = LIFEx feature name and [IBSI](https://theibsi.github.io/) code
+        - `Feature` =  [LIFEx](https://www.lifexsoft.org/) feature name and [IBSI](https://theibsi.github.io/) code
         - `rho` = Spearman's correlation coefficient
         - `p-val` =	p-Value
         - `Corrected p-val` = p-Value corrected for multiple tests
