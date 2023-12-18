@@ -1,8 +1,8 @@
 # Sensitivity of radiomics features to region volume: A CT phantom study
 
-### By Usama Muhammad Khan, Francesco Bianconi, Mario L. Fravolini and Barbara Palumbo
+### By [Muhammad Usama Khan](https://www.linkedin.com/in/usama-khan-0a509211a/), [Francesco Bianconi](www.bianconif.net), Mario L. Fravolini and Barbara Palumbo
 
-### Submitted to the [8th International Conference on Control, Automation and DIagnosis - ICCAD'24](https://www.iccad-conf.com/)
+### Submitted to the [8th International Conference on Control, Automation and Diagnosis - ICCAD'24](https://www.iccad-conf.com/)
 
 ## Supplementary material
 
